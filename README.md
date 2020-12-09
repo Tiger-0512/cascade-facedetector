@@ -1,7 +1,7 @@
 # Face Detection with Cascade Classifier
 
 ## DEMO Image
-![DEMO Image](https://github.com/Tiger-0512/cascade-facedetector.git/results/result1.jpg)
+![DEMO Image](https://github.com/Tiger-0512/cascade-facedetector/blob/main/results/result1.jpg)<br>
 This is a free image from Internet
 
 ## Environments

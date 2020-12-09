@@ -17,6 +17,9 @@ cascade = cv2.CascadeClassifier('/Users/tiger/opt/anaconda3/envs/dl/lib/python3.
 for i in range(N):
     # detect smile
     img = cv2.imread('./images/image' + str(i+1) + '.jpg')
+    height = img.shape[0]
+    width = img.shape[1]
+
     face = cascade.detectMultiScale(img)
 
     # make bounding boxes
@@ -24,7 +27,8 @@ for i in range(N):
         cv2.rectangle(img, (x, y), (x+w, y+h), (0, 0, 200), thickness=2)
 
     # show the image
-    cv2.imshow('image', img)
+    resized_img = cv2.resize(img,(width//2, height//2))
+    cv2.imshow('image', resized_img)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 

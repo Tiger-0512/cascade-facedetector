@@ -3,7 +3,7 @@
 ## DEMO Image
 ![DEMO Image](https://github.com/Tiger-0512/cascade-facedetector/blob/main/results/result1.jpg)<br>
 ![DEMO Image](https://github.com/Tiger-0512/cascade-facedetector/blob/main/results/result2.jpg)<br>
-These are free images from Internet
+These are free images from Internet.
 
 ## Environments
 ```
@@ -24,9 +24,9 @@ $ python face_detector.py
 ```
 
 ## Note
-You can detect any face image<br>
+You can detect any face image.<br>
 If you use your own images, add image in the "images" folder,<br>
-and rename the images as I show below<br>
+and rename the images as I show below.<br>
 ```
 image1.jpg, image2.jpg, ..., imageX.jpg
 ```
